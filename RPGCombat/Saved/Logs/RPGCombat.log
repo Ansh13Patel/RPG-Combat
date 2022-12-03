@@ -890,3 +890,178 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.12.03-10.20.32:460][  0]LogContentStreaming: Texture pool size now 1000 MB
 [2022.12.03-10.20.33:313][  1]LogAssetRegistry: Asset discovery search completed in 11.3166 seconds
 [2022.12.03-10.20.33:323][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000006 seconds (updated 0 objects)
+[2022.12.03-10.30.12:391][947]LogDirectoryWatcher: Display: A directory notification failed for 'D:/My Games/RPG-Combat/RPGCombat/Content/Collections/' because it could not be accessed. Aborting watch request...
+[2022.12.03-10.30.12:392][947]LogDirectoryWatcher: Display: A directory notification failed for 'D:/My Games/RPG-Combat/RPGCombat/Content/Developers/anshp/Collections/' because it could not be accessed. Aborting watch request...
+[2022.12.03-10.30.12:392][947]LogDirectoryWatcher: Display: A directory notification failed for 'D:/My Games/RPG-Combat/RPGCombat/Saved/Collections/' because it could not be accessed. Aborting watch request...
+[2022.12.03-10.30.33:693][ 10]LogSlate: Took 0.025902 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.12.03-10.30.46:323][169]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2022.12.03-10.31.50:465][518]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2022.12.03-10.31.50:521][518]LogSlate: Took 0.000283 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.12.03-10.31.50:602][518]LogBlueprint: Warning: [AssetLog] D:\My Games\RPG-Combat\RPGCombat\Content\Blueprints\FirstPersonCharacter.uasset: [Compiler] Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate
+[2022.12.03-10.31.50:603][518]LogBlueprint: Warning: [AssetLog] D:\My Games\RPG-Combat\RPGCombat\Content\Blueprints\FirstPersonCharacter.uasset: [Compiler] Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate
+[2022.12.03-10.31.50:604][518]LogBlueprint: Warning: [AssetLog] D:\My Games\RPG-Combat\RPGCombat\Content\Blueprints\FirstPersonCharacter.uasset: [Compiler] Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
+[2022.12.03-10.31.50:604][518]LogBlueprint: Warning: [AssetLog] D:\My Games\RPG-Combat\RPGCombat\Content\Blueprints\FirstPersonCharacter.uasset: [Compiler] Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
+[2022.12.03-10.31.50:604][518]LogBlueprint: Warning: [AssetLog] D:\My Games\RPG-Combat\RPGCombat\Content\Blueprints\FirstPersonCharacter.uasset: [Compiler] Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward
+[2022.12.03-10.31.50:605][518]LogBlueprint: Warning: [AssetLog] D:\My Games\RPG-Combat\RPGCombat\Content\Blueprints\FirstPersonCharacter.uasset: [Compiler] Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight
+[2022.12.03-10.31.50:803][518]LogTexture: Default maximum texture size for cubemaps generated from long-lat sources has been changed from 512 to unlimited. In order to preserve old behaiour for '/Game/Assets/Textures/Sky54a2048.Sky54a2048', its maximum texture size has been explicitly set to 512.
+[2022.12.03-10.31.51:867][518]LogTexture: Display: Building textures: DeprecatedTextureA7E6A98A4D2F2748FE54839ABD6066BF (BGRA8, 128X128)
+[2022.12.03-10.31.51:884][518]LogTexture: Display: Building textures: DeprecatedTexture6687AE3F412A18D0D277F1AF7015FBC8 (BGRA8, 128X128)
+[2022.12.03-10.31.51:898][518]LogTexture: Display: Building textures: DeprecatedTextureB1C9C9194F7916F7D143C7AD6FE3492C (BGRA8, 128X128)
+[2022.12.03-10.31.51:911][518]LogTexture: Display: Building textures: DeprecatedTexture0987237C4C5342631B5CABB87D394E36 (BGRA8, 128X128)
+[2022.12.03-10.31.51:927][518]LogTexture: Display: Building textures: DeprecatedTexture0145E07F466E63DB445E35AD980A6A66 (BGRA8, 128X128)
+[2022.12.03-10.31.51:941][518]LogTexture: Display: Building textures: DeprecatedTexture07B2EAD244D2C3B77A5620BFF4F40A06 (BGRA8, 128X128)
+[2022.12.03-10.31.51:954][518]LogTexture: Display: Building textures: DeprecatedTexture2380761148FBA33A46B30B936AC8A6D3 (BGRA8, 128X128)
+[2022.12.03-10.31.51:968][518]LogTexture: Display: Building textures: DeprecatedTextureDFF505F64A34247F8404078A478A9378 (BGRA8, 128X128)
+[2022.12.03-10.31.51:981][518]LogTexture: Display: Building textures: DeprecatedTextureD559DBAB426B8183769683916C6858E6 (BGRA8, 128X128)
+[2022.12.03-10.31.51:994][518]LogTexture: Display: Building textures: DeprecatedTexture00BFC5A04E3BC999D48E6AB335940EA4 (BGRA8, 128X128)
+[2022.12.03-10.31.52:008][518]LogTexture: Display: Building textures: DeprecatedTexture4D86BFDB40A419D1B9737BAF2A91FAE9 (BGRA8, 128X128)
+[2022.12.03-10.31.52:021][518]LogTexture: Display: Building textures: DeprecatedTexture9CBF90DF45B22A54A40A94A1938FB84A (BGRA8, 128X128)
+[2022.12.03-10.31.52:034][518]LogTexture: Display: Building textures: DeprecatedTextureD65D2B4B43F0244F1E24169CA9B1B02B (BGRA8, 128X128)
+[2022.12.03-10.31.52:048][518]LogTexture: Display: Building textures: DeprecatedTexture41B5774B4A271B5BD2416B992FDF3155 (BGRA8, 128X128)
+[2022.12.03-10.31.52:061][518]LogTexture: Display: Building textures: DeprecatedTextureC91D506141F6F1226A6101B4AF908E34 (BGRA8, 128X128)
+[2022.12.03-10.31.52:075][518]LogTexture: Display: Building textures: DeprecatedTextureFD38CDCA44298C1390F1B4922546EF25 (BGRA8, 128X128)
+[2022.12.03-10.31.52:089][518]LogTexture: Display: Building textures: DeprecatedTextureDEAF571E4F865F3A3FF4C6A1001EBC92 (BGRA8, 128X128)
+[2022.12.03-10.31.52:102][518]LogTexture: Display: Building textures: DeprecatedTexture48ED4374425E56608C61F1BF9A176548 (BGRA8, 128X128)
+[2022.12.03-10.31.52:115][518]LogTexture: Display: Building textures: DeprecatedTexture1B5C21EE4FDD3D7BBC3C7EA5AB5C1398 (BGRA8, 128X128)
+[2022.12.03-10.31.52:131][518]LogTexture: Display: Building textures: DeprecatedTextureB70A895A43CCF184C1982EA2238806E9 (BGRA8, 128X128)
+[2022.12.03-10.31.52:143][518]LogTexture: Display: Building textures: DeprecatedTextureFF45C9A94AC84CA8BE069DB925102507 (BGRA8, 128X128)
+[2022.12.03-10.31.52:156][518]LogTexture: Display: Building textures: DeprecatedTextureBF0C62D045306E16920C25A5CFD38A71 (BGRA8, 128X128)
+[2022.12.03-10.31.52:171][518]LogTexture: Display: Building textures: DeprecatedTexture777BB3D248B2D5C5096E128B11207EA6 (BGRA8, 128X128)
+[2022.12.03-10.31.52:183][518]LogTexture: Display: Building textures: DeprecatedTextureC4565CBF4A7E80510BA2D6847995BAFE (BGRA8, 128X128)
+[2022.12.03-10.31.52:198][518]LogTexture: Display: Building textures: DeprecatedTexture3A29B65749A99B202A8E5CB75FA905DD (BGRA8, 128X128)
+[2022.12.03-10.31.52:212][518]LogTexture: Display: Building textures: DeprecatedTextureB4CEA25C492BEF061FDDC88AAE275319 (BGRA8, 128X128)
+[2022.12.03-10.31.52:229][518]LogTexture: Display: Building textures: DeprecatedTexture35205B254A658F215FD36BA65E22278F (BGRA8, 128X128)
+[2022.12.03-10.31.52:241][518]LogTexture: Display: Building textures: DeprecatedTexture22F10FF9403A985CE770EB9FC8A85B0B (BGRA8, 128X128)
+[2022.12.03-10.31.52:254][518]LogTexture: Display: Building textures: DeprecatedTexture0C0EC7EE41E28EDCDB3F5C9F22CC7F31 (BGRA8, 128X128)
+[2022.12.03-10.31.52:268][518]LogTexture: Display: Building textures: DeprecatedTexture440CEB2C4EB4EA26767E118EB742C029 (BGRA8, 128X128)
+[2022.12.03-10.31.52:281][518]LogTexture: Display: Building textures: DeprecatedTextureE926C81042E291CEFAB32AA186C48BC0 (BGRA8, 128X128)
+[2022.12.03-10.31.52:296][518]LogTexture: Display: Building textures: DeprecatedTextureB5EE0735444A4AEE513A1ABE75A8F335 (BGRA8, 128X128)
+[2022.12.03-10.31.52:309][518]LogTexture: Display: Building textures: DeprecatedTexture86FC28BC4D90EBD037FA5F82009E88F7 (BGRA8, 128X128)
+[2022.12.03-10.31.52:323][518]LogTexture: Display: Building textures: DeprecatedTexture03AD0BC04CA17691D68546974226D566 (BGRA8, 128X128)
+[2022.12.03-10.31.52:343][518]LogTexture: Display: Building textures: DeprecatedTexture35D58976406B70DF978CD2BE0A9493B7 (BGRA8, 128X128)
+[2022.12.03-10.31.52:353][518]LogTexture: Display: Building textures: DeprecatedTexture4DAB9FBC4508D848C7D5D488674530E0 (BGRA8, 128X128)
+[2022.12.03-10.31.52:363][518]LogTexture: Display: Building textures: DeprecatedTexture0CCFFF1A4E381AB21EBA8384D8722371 (BGRA8, 128X128)
+[2022.12.03-10.31.52:375][518]LogTexture: Display: Building textures: DeprecatedTexture087BF7A34EA561B7452DC39A20069706 (BGRA8, 128X128)
+[2022.12.03-10.31.52:386][518]LogTexture: Display: Building textures: DeprecatedTexture090431A04A78EE12BD47C8AE7CB69CAF (BGRA8, 128X128)
+[2022.12.03-10.31.52:396][518]LogTexture: Display: Building textures: DeprecatedTexture988A25D14D7CD642B8AD8C86114E0F87 (BGRA8, 128X128)
+[2022.12.03-10.31.52:408][518]LogTexture: Display: Building textures: DeprecatedTexture26CFDFE5461810E9665DC9B82FA9761F (BGRA8, 128X128)
+[2022.12.03-10.31.52:419][518]LogTexture: Display: Building textures: DeprecatedTexture3A35EFBF44EAED5B2513CE8B2597E757 (BGRA8, 128X128)
+[2022.12.03-10.31.52:429][518]LogTexture: Display: Building textures: DeprecatedTextureB7D70BAB48E8B7F5145C12B1E999E7AD (BGRA8, 128X128)
+[2022.12.03-10.31.52:439][518]LogTexture: Display: Building textures: DeprecatedTexture86FD2C9E4B064EB8BD2A2A8FCB4E3CB9 (BGRA8, 128X128)
+[2022.12.03-10.31.54:991][518]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/SunTemple.SunTemple
+[2022.12.03-10.31.54:992][518]Cmd: MAP LOAD FILE="D:/My Games/RPG-Combat/RPGCombat/Content/Maps/SunTemple.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.12.03-10.31.54:992][518]LightingResults: New page: Lighting Build
+[2022.12.03-10.31.54:992][518]LoadErrors: New page: Loading map: SunTemple.umap
+[2022.12.03-10.31.55:019][518]LogWorld: UWorld::CleanupWorld for Untitled_1, bSessionEnded=true, bCleanupResources=true
+[2022.12.03-10.31.55:019][518]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.03-10.31.55:020][518]MapCheck: New page: Map Check
+[2022.12.03-10.31.55:020][518]LightingResults: New page: Lighting Build
+[2022.12.03-10.31.55:064][518]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.12.03-10.31.55:178][518]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2022.12.03-10.31.55:184][518]LogAudio: Display: Audio Device (ID: 1) registered with world 'SunTemple'.
+[2022.12.03-10.31.55:590][518]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.12.03-10.31.55:591][518]LogAIModule: Creating AISystem for world SunTemple
+[2022.12.03-10.31.55:676][518]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2022.12.03-10.31.55:680][518]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.12.03-10.31.55:680][518]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.253ms to complete.
+[2022.12.03-10.31.55:681][518]LogFileHelpers: Loading map 'SunTemple' took 0.689
+[2022.12.03-10.32.13:126][807]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2022.12.03-10.32.17:556][861]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.12.03-10.32.30:743][214]LogSlate: Window 'Project Settings' being destroyed
+[2022.12.03-10.32.30:768][214]LogSlate: Window 'Project Settings' being destroyed
+[2022.12.03-10.32.45:593][432]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2022.12.03-10.32.48:110][432]LogSlate: Window 'Delete Assets' being destroyed
+[2022.12.03-10.32.48:194][432]LogUObjectGlobals: Force Deleting 3 Package(s):
+	Asset Name: /Game/Blueprints/MyGame.MyGame
+	Asset Name: /Game/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+	Asset Name: /Game/Blueprints/MyController.MyController
+[2022.12.03-10.32.52:949][432]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2022.12.03-10.32.52:962][432]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2022.12.03-10.32.52:971][432]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2022.12.03-10.32.52:982][432]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2022.12.03-10.32.52:990][432]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2022.12.03-10.33.08:179][611]LogTemp: Repeating last play command: Selected Viewport
+[2022.12.03-10.33.08:191][611]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.12.03-10.33.08:193][611]PIE: New page: PIE session: SunTemple (03-Dec-2022, 9:33:08 pm)
+[2022.12.03-10.33.08:201][611]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2022.12.03-10.33.08:205][611]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2022.12.03-10.33.08:206][611]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_SunTemple
+[2022.12.03-10.33.08:332][611]LogPlayLevel: PIE: StaticDuplicateObject took: (0.126966s)
+[2022.12.03-10.33.08:335][611]LogAIModule: Creating AISystem for world SunTemple
+[2022.12.03-10.33.08:337][611]LogPlayLevel: PIE: World Init took: (0.004397s)
+[2022.12.03-10.33.08:337][611]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/SunTemple.SunTemple to /Game/Maps/UEDPIE_0_SunTemple.SunTemple (0.131954s)
+[2022.12.03-10.33.08:352][611]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2022.12.03-10.33.08:364][611]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2022.12.03-10.33.08:364][611]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.12.03-10.33.08:364][611]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.12.03-10.33.08:364][611]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.12.03-10.33.08:364][611]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.12.03-10.33.08:364][611]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.12.03-10.33.08:364][611]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.12.03-10.33.08:364][611]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.12.03-10.33.08:364][611]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.12.03-10.33.08:366][611]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.12.03-10.33.08:366][611]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.12.03-10.33.08:366][611]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.12.03-10.33.08:366][611]LogAudioMixer: Display: Initializing audio mixer.
+[2022.12.03-10.33.08:376][611]LogAudioMixer: Display: 0: FrontLeft
+[2022.12.03-10.33.08:376][611]LogAudioMixer: Display: 1: FrontRight
+[2022.12.03-10.33.08:413][611]LogAudioMixer: Display: Using Audio Device Headphones (Airdopes 441)
+[2022.12.03-10.33.08:413][611]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.12.03-10.33.08:414][611]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.12.03-10.33.08:414][611]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.12.03-10.33.08:414][611]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.12.03-10.33.08:414][611]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.12.03-10.33.08:414][611]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.12.03-10.33.08:417][611]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.12.03-10.33.08:417][611]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.12.03-10.33.08:417][611]LogInit: FAudioDevice initialized.
+[2022.12.03-10.33.08:417][611]LogAudio: Display: Audio Device (ID: 2) registered with world 'SunTemple'.
+[2022.12.03-10.33.08:437][611]LogLoad: Game class is 'RPGCombatGameModeBase'
+[2022.12.03-10.33.08:482][611]LogWorld: Bringing World /Game/Maps/UEDPIE_0_SunTemple.SunTemple up for play (max tick rate 60) at 2022.12.03-16.03.08
+[2022.12.03-10.33.08:484][611]LogWorld: Bringing up level for play took: 0.032282
+[2022.12.03-10.33.08:485][611]LogOnline: OSS: Creating online subsystem instance for: :Context_2
+[2022.12.03-10.33.08:504][611]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 20 classes and 0 folders.
+[2022.12.03-10.33.08:513][611]PIE: Server logged in
+[2022.12.03-10.33.08:517][611]PIE: Play in editor total start time 0.329 seconds.
+[2022.12.03-10.33.46:350][240]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.03-10.33.46:350][240]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_SunTemple
+[2022.12.03-10.33.46:353][240]LogWorld: UWorld::CleanupWorld for SunTemple, bSessionEnded=true, bCleanupResources=true
+[2022.12.03-10.33.46:356][240]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.03-10.33.46:438][240]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.12.03-10.33.46:443][240]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.03-10.33.46:458][240]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.12.03-10.33.46:461][240]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.12.03-10.33.46:464][240]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.12.03-10.33.46:469][240]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.03-10.33.46:481][240]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2022.12.03-10.33.46:518][241]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2022.12.03-10.34.02:076][472]LogSlate: Took 0.010599 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.12.03-10.34.16:286][675]LogSlate: Window 'Add C++ Class' being destroyed
+[2022.12.03-10.34.18:929][713]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/SunTemple" FILE="D:/My Games/RPG-Combat/RPGCombat/Content/Maps/SunTemple.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.03-10.34.18:944][713]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2022.12.03-10.34.19:430][713]LogSavePackage: Moving 'D:/My Games/RPG-Combat/RPGCombat/Saved/SunTempleEC08233B4813AAC4D50FA69C0AD4829A.tmp' to 'D:/My Games/RPG-Combat/RPGCombat/Content/Maps/SunTemple.umap'
+[2022.12.03-10.34.19:487][713]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/SunTemple_BuiltData" FILE="D:/My Games/RPG-Combat/RPGCombat/Content/Maps/SunTemple_BuiltData.uasset" SILENT=true
+[2022.12.03-10.34.31:409][713]LogSavePackage: Moving 'D:/My Games/RPG-Combat/RPGCombat/Saved/SunTemple_BuiltData30E9BF3D419F8611BD266184AFF3C974.tmp' to 'D:/My Games/RPG-Combat/RPGCombat/Content/Maps/SunTemple_BuiltData.uasset'
+[2022.12.03-10.34.31:502][713]AssetCheck: New page: Asset Save: multiple assets
+[2022.12.03-10.34.31:502][713]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/SunTemple_BuiltData.SunTemple_BuiltData
+[2022.12.03-10.34.31:504][713]LogContentValidation: Display: Validating World /Game/Maps/SunTemple.SunTemple
+[2022.12.03-10.34.33:122][737]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/SunTemple" FILE="D:/My Games/RPG-Combat/RPGCombat/Content/Maps/SunTemple.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.03-10.34.33:131][737]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2022.12.03-10.34.33:484][737]LogSavePackage: Moving 'D:/My Games/RPG-Combat/RPGCombat/Saved/SunTempleA85E77984AD585F88A4C80B4AD72BEFA.tmp' to 'D:/My Games/RPG-Combat/RPGCombat/Content/Maps/SunTemple.umap'
+[2022.12.03-10.34.33:489][737]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/SunTemple_BuiltData" FILE="D:/My Games/RPG-Combat/RPGCombat/Content/Maps/SunTemple_BuiltData.uasset" SILENT=true
+[2022.12.03-10.34.47:004][737]LogSavePackage: Moving 'D:/My Games/RPG-Combat/RPGCombat/Saved/SunTemple_BuiltData2C7E092D47E340A97F986F81DDAB58BD.tmp' to 'D:/My Games/RPG-Combat/RPGCombat/Content/Maps/SunTemple_BuiltData.uasset'
+[2022.12.03-10.34.47:063][737]AssetCheck: New page: Asset Save: multiple assets
+[2022.12.03-10.34.47:063][737]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/SunTemple_BuiltData.SunTemple_BuiltData
+[2022.12.03-10.34.47:063][737]LogContentValidation: Display: Validating World /Game/Maps/SunTemple.SunTemple
+[2022.12.03-10.56.19:093][984]LogHttp: Warning: 0000025C73AFF200: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B48E76D1E-45DB-2F98-4C33-2B8243C8964B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=3dbc69474e13f6e5e46a91a17e64be01%7C9d38687a8d4b46a6a008c4c8c3ae762c%7Cd46f3827-b0c9-48e6-b10e-9c587f788241&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.12.03-10.56.19:094][984]LogHttp: Warning: 0000025C73AFF200: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2022.12.03-10.56.19:094][984]LogHttp: Warning: 0000025C73AFF200: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x25c18fc7eb0 [can pipeline])
+[2022.12.03-10.56.19:094][984]LogHttp: Warning: 0000025C73AFF200: libcurl info message cache 1 (Re-using existing connection! (#0) with host datarouter.ol.epicgames.com)
+[2022.12.03-10.56.19:094][984]LogHttp: Warning: 0000025C73AFF200: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.6.234.255) port 443 (#0))
+[2022.12.03-10.56.19:094][984]LogHttp: Warning: 0000025C73AFF200: libcurl info message cache 3 (We are completely uploaded and fine)
+[2022.12.03-10.56.19:094][984]LogHttp: Warning: 0000025C73AFF200: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2022.12.03-10.56.19:094][984]LogHttp: Warning: 0000025C73AFF200: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2022.12.03-10.56.19:094][984]LogHttp: Warning: 0000025C73AFF200: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2022.12.03-10.56.19:094][984]LogHttp: Warning: 0000025C73AFF200: libcurl info message cache 7 (Closing connection 0)
+[2022.12.03-10.56.19:094][984]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B48E76D1E-45DB-2F98-4C33-2B8243C8964B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=3dbc69474e13f6e5e46a91a17e64be01%7C9d38687a8d4b46a6a008c4c8c3ae762c%7Cd46f3827-b0c9-48e6-b10e-9c587f788241&AppEnvironment=datacollector-binary&UploadType=eteventstream
