@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "RPGCombat",
+			"Path": "D:\\My Games\\RPG-Combat\\RPGCombat\\Source\\RPGCombat.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "RPGCombatEditor",
+			"Path": "D:\\My Games\\RPG-Combat\\RPGCombat\\Source\\RPGCombatEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

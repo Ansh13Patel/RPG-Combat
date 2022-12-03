@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\My Games\\RPG-Combat\\RPGCombat\\Source\\RPGCombat\\RPGCombat.Build.cs",
+		"D:\\My Games\\RPG-Combat\\RPGCombat\\Source\\RPGCombat.Target.cs",
+		"D:\\My Games\\RPG-Combat\\RPGCombat\\Source\\RPGCombatEditor.Target.cs"
+	],
+	"EngineVersion": "4.27.2"
+}
