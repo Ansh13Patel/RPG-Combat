@@ -1,0 +1,13 @@
+D:\My Games\RPG-Combat\RPGCombat\Intermediate\Build\Win64\UE4Editor\Development\RPGCombat\Definitions.RPGCombat.h
+D:\My Games\RPG-Combat\RPGCombat\Source\RPGCombat\MainPlayer.h
+C:\Program Files\Unreal Engine\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+C:\Program Files\Unreal Engine\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/CharacterMovementReplication.h
+C:\Program Files\Unreal Engine\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CharacterMovementReplication.generated.h
+C:\Program Files\Unreal Engine\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+C:\Program Files\Unreal Engine\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+C:\Program Files\Unreal Engine\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+D:\My Games\RPG-Combat\RPGCombat\Intermediate\Build\Win64\UE4Editor\Inc\RPGCombat\MainPlayer.generated.h
+C:\Program Files\Unreal Engine\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/SpringArmComponent.h
+C:\Program Files\Unreal Engine\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SpringArmComponent.generated.h
+C:\Program Files\Unreal Engine\UE_4.27\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
+C:\Program Files\Unreal Engine\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h

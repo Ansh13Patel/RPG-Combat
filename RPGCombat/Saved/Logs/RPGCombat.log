@@ -1537,3 +1537,86 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.12.03-11.12.40:147][750]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animations/Walking.Walking
 [2022.12.03-11.12.40:224][752]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animations/Standing_Melee_Attack_Horizontal.Standing_Melee_Attack_Horizontal
 [2022.12.03-11.13.19:719][ 77]LogSlate: Window 'Add C++ Class' being destroyed
+[2022.12.03-11.15.47:458][765]Running C:/Program Files/Unreal Engine/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="D:/My Games/RPG-Combat/RPGCombat/RPGCombat.uproject" -game -rocket -progress
+[2022.12.03-11.15.47:865][765]Discovering modules, targets and source code for project...
+[2022.12.03-11.15.52:598][765]Binding IntelliSense data...
+[2022.12.03-11.16.04:477][765]Binding IntelliSense data... 50%
+[2022.12.03-11.16.04:477][765]Binding IntelliSense data... 100%
+[2022.12.03-11.16.04:477][765]Writing project files...
+[2022.12.03-11.16.10:621][765]Writing project files... 100%
+[2022.12.03-11.16.10:730][765]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2022.12.03-11.16.10:752][765]Candidate modules for hot reload:
+[2022.12.03-11.16.10:752][765]  RPGCombat
+[2022.12.03-11.16.10:752][765]Launching UnrealBuildTool... [C:/Program Files/Unreal Engine/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=RPGCombat,9625 RPGCombatEditor Win64 Development -Project="D:/My Games/RPG-Combat/RPGCombat/RPGCombat.uproject" "D:/My Games/RPG-Combat/RPGCombat/RPGCombat.uproject"  -IgnoreJunk]
+[2022.12.03-11.19.01:412][765]CompilerResultsLog: New page: Compilation - 03-Dec-2022, 10:19:01 pm
+[2022.12.03-11.19.01:413][765]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\My Games\RPG-Combat).
+[2022.12.03-11.19.01:413][765]CompilerResultsLog: Creating makefile for RPGCombatEditor (no existing makefile)
+[2022.12.03-11.19.01:413][765]CompilerResultsLog: Parsing headers for RPGCombatEditor
+[2022.12.03-11.19.01:413][765]CompilerResultsLog:   Running UnrealHeaderTool "D:\My Games\RPG-Combat\RPGCombat\RPGCombat.uproject" "D:\My Games\RPG-Combat\RPGCombat\Intermediate\Build\Win64\RPGCombatEditor\Development\RPGCombatEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\anshp\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2022.12.03-11.19.01:413][765]CompilerResultsLog: LogInit: Display: Loading text-based GConfig....
+[2022.12.03-11.19.01:413][765]CompilerResultsLog: Reflection code generated for RPGCombatEditor in 23.14167 seconds
+[2022.12.03-11.19.01:413][765]CompilerResultsLog: Building RPGCombatEditor...
+[2022.12.03-11.19.01:413][765]CompilerResultsLog: Using Visual Studio 2022 14.34.31935 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.12.03-11.19.01:413][765]CompilerResultsLog: Building 9 actions with 8 processes...
+[2022.12.03-11.19.01:413][765]CompilerResultsLog:   [1/9] RPGCombat.cpp
+[2022.12.03-11.19.01:413][765]CompilerResultsLog:   [2/9] RPGCombatGameModeBase.cpp
+[2022.12.03-11.19.01:413][765]CompilerResultsLog:   [3/9] MainPlayer.cpp
+[2022.12.03-11.19.01:413][765]CompilerResultsLog:   [4/9] RPGCombat.init.gen.cpp
+[2022.12.03-11.19.01:413][765]CompilerResultsLog:   [5/9] RPGCombatGameModeBase.gen.cpp
+[2022.12.03-11.19.01:413][765]CompilerResultsLog:   [6/9] MainPlayer.gen.cpp
+[2022.12.03-11.19.01:413][765]CompilerResultsLog:   [7/9] UE4Editor-RPGCombat-9625.lib
+[2022.12.03-11.19.01:413][765]CompilerResultsLog:      Creating library D:\My Games\RPG-Combat\RPGCombat\Intermediate\Build\Win64\UE4Editor\Development\RPGCombat\UE4Editor-RPGCombat-9625.lib and object D:\My Games\RPG-Combat\RPGCombat\Intermediate\Build\Win64\UE4Editor\Development\RPGCombat\UE4Editor-RPGCombat-9625.exp
+[2022.12.03-11.19.01:413][765]CompilerResultsLog:   [8/9] UE4Editor-RPGCombat-9625.dll
+[2022.12.03-11.19.01:413][765]CompilerResultsLog:      Creating library D:\My Games\RPG-Combat\RPGCombat\Intermediate\Build\Win64\UE4Editor\Development\RPGCombat\UE4Editor-RPGCombat-9625.suppressed.lib and object D:\My Games\RPG-Combat\RPGCombat\Intermediate\Build\Win64\UE4Editor\Development\RPGCombat\UE4Editor-RPGCombat-9625.suppressed.exp
+[2022.12.03-11.19.01:413][765]CompilerResultsLog:   [9/9] RPGCombatEditor.target
+[2022.12.03-11.19.01:413][765]CompilerResultsLog: Total time in Parallel executor: 143.91 seconds
+[2022.12.03-11.19.01:414][765]CompilerResultsLog: Total execution time: 170.54 seconds
+[2022.12.03-11.19.01:414][765]LogMainFrame: MainFrame: Module compiling took 170.684 seconds
+[2022.12.03-11.19.01:458][765]LogClass: Could not find existing class MainPlayer in package /Script/RPGCombat for HotReload, assuming new class
+[2022.12.03-11.19.01:462][765]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'RPGCombat' in 0.0005 seconds. Added 2 classes and 2 folders.
+[2022.12.03-11.19.01:474][765]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.12.03-11.19.01:585][765]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0188 seconds. Added 3824 classes and 930 folders.
+[2022.12.03-11.19.01:601][765]Display: HotReload took 170.9s.
+[2022.12.03-11.19.01:615][765]Warning: HotReload operation took 170.9s.
+[2022.12.03-11.19.01:833][765]LogSlate: Window 'Add C++ Class' being destroyed
+[2022.12.03-11.19.01:857][765]LogHotReload: New module detected: UE4Editor-RPGCombat-9625.dll
+[2022.12.03-11.19.01:979][766]LogHotReload: Starting Hot-Reload from IDE
+[2022.12.03-11.19.02:190][766]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'RPGCombat' in 0.0005 seconds. Added 2 classes and 2 folders.
+[2022.12.03-11.19.02:195][766]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.12.03-11.19.02:210][766]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0153 seconds. Added 3824 classes and 930 folders.
+[2022.12.03-11.19.02:218][766]Display: HotReload took  0.2s.
+[2022.12.03-11.21.33:883][140]LogHotReload: New module detected: UE4Editor-RPGCombat-0002.dll
+[2022.12.03-11.21.35:241][145]LogHotReload: Starting Hot-Reload from IDE
+[2022.12.03-11.21.35:296][145]LogClass: Could not find existing class MainPlayer in package /Script/RPGCombat for HotReload, assuming new class
+[2022.12.03-11.21.35:305][145]LogHotReload: Re-instancing MainPlayer after hot-reload.
+[2022.12.03-11.21.35:312][145]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'RPGCombat' in 0.0003 seconds. Added 2 classes and 2 folders.
+[2022.12.03-11.21.35:315][145]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.12.03-11.21.35:379][145]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0137 seconds. Added 3824 classes and 930 folders.
+[2022.12.03-11.21.35:389][145]Display: HotReload took  0.1s.
+[2022.12.03-11.22.35:814][577]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Character/MainPlayer_BP.MainPlayer_BP
+[2022.12.03-11.22.36:918][577]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 126 classes and 0 folders.
+[2022.12.03-11.22.38:270][577]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2022.12.03-11.22.41:890][610]LogRenderer: Reallocating scene render targets to support 880x568 Format 10 NumSamples 1 (Frame:34).
+[2022.12.03-11.22.42:318][618]LogSlate: Window 'MainPlayer_BP' being destroyed
+[2022.12.03-11.22.43:670][641]LogSlate: Took 0.001502 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2022.12.03-11.22.45:166][664]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/MainPlayer_BP" FILE="D:/My Games/RPG-Combat/RPGCombat/Content/Character/MainPlayer_BP.uasset" SILENT=true
+[2022.12.03-11.22.45:172][664]LogSavePackage: Moving 'D:/My Games/RPG-Combat/RPGCombat/Saved/MainPlayer_BPC0A443B94D08C84D23A28BAA90BF2DB1.tmp' to 'D:/My Games/RPG-Combat/RPGCombat/Content/Character/MainPlayer_BP.uasset'
+[2022.12.03-11.22.45:196][664]AssetCheck: New page: Asset Save: MainPlayer_BP
+[2022.12.03-11.22.45:196][664]LogContentValidation: Display: Validating Blueprint /Game/Character/MainPlayer_BP.MainPlayer_BP
+[2022.12.03-11.23.55:565][932]Cmd: MODE GRID=0
+[2022.12.03-11.26.14:285][399]BlueprintLog: New page: Compile MainPlayer_BP
+[2022.12.03-11.26.14:375][399]LogUObjectHash: Compacting FUObjectHashTables data took   4.47ms
+[2022.12.03-11.26.15:351][413]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/MainPlayer_BP" FILE="D:/My Games/RPG-Combat/RPGCombat/Content/Character/MainPlayer_BP.uasset" SILENT=true
+[2022.12.03-11.26.15:369][413]LogSavePackage: Moving 'D:/My Games/RPG-Combat/RPGCombat/Saved/MainPlayer_BP8534E81B4A5A805ADB4023818DBC87C6.tmp' to 'D:/My Games/RPG-Combat/RPGCombat/Content/Character/MainPlayer_BP.uasset'
+[2022.12.03-11.26.15:390][413]AssetCheck: New page: Asset Save: MainPlayer_BP
+[2022.12.03-11.26.15:390][413]LogContentValidation: Display: Validating Blueprint /Game/Character/MainPlayer_BP.MainPlayer_BP
+[2022.12.03-11.26.18:234][468]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2022.12.03-11.26.18:234][468]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.03-11.26.22:131][515]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/SunTemple" FILE="D:/My Games/RPG-Combat/RPGCombat/Content/Maps/SunTemple.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.03-11.26.22:162][515]LogUObjectHash: Compacting FUObjectHashTables data took   3.49ms
+[2022.12.03-11.26.22:457][515]LogSavePackage: Moving 'D:/My Games/RPG-Combat/RPGCombat/Saved/SunTemple8667AA334FB0FBD289E17E977D9FB79E.tmp' to 'D:/My Games/RPG-Combat/RPGCombat/Content/Maps/SunTemple.umap'
+[2022.12.03-11.26.22:464][515]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/SunTemple_BuiltData" FILE="D:/My Games/RPG-Combat/RPGCombat/Content/Maps/SunTemple_BuiltData.uasset" SILENT=true
+[2022.12.03-11.26.29:849][515]LogSavePackage: Moving 'D:/My Games/RPG-Combat/RPGCombat/Saved/SunTemple_BuiltData1E04AB084CD1529A2F4F91A9F51568ED.tmp' to 'D:/My Games/RPG-Combat/RPGCombat/Content/Maps/SunTemple_BuiltData.uasset'
+[2022.12.03-11.26.29:906][515]AssetCheck: New page: Asset Save: multiple assets
+[2022.12.03-11.26.29:906][515]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/SunTemple_BuiltData.SunTemple_BuiltData
+[2022.12.03-11.26.29:906][515]LogContentValidation: Display: Validating World /Game/Maps/SunTemple.SunTemple
