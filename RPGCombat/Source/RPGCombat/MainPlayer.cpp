@@ -23,6 +23,9 @@ AMainPlayer::AMainPlayer()
 	FollowCamera->SetupAttachment(CameraBoom, USpringArmComponent::SocketName);
 	// Attach Follow Camera to Camera Boom and let Camera Boom adjust the Controller Oriention.
 	FollowCamera->bUsePawnControlRotation = false;
+
+	BaseTurnRate = 65.f;
+	BaseLookUpRate = 65.f;
 }
 
 // Called when the game starts or when spawned
@@ -44,4 +47,38 @@ void AMainPlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
+	PlayerInputComponent->BindAxis("MoveForward", this, &AMainPlayer::MoveForward);
+	PlayerInputComponent->BindAxis("MoveRight", this, &AMainPlayer::MoveRight);
+}
+
+void AMainPlayer::MoveForward(float value)
+{
+	if ((Controller != nullptr) && (value != 0.f))
+	{
+		// Get controller rotation and store it yaw rotation
+		const FRotator Rotation = GetControlRotation();
+		const FRotator YawRotation(0.f, Rotation.Yaw, 0.f);
+
+		// Get forward direction of yaw rotation using rotation matrix
+		const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
+
+		// Move player in direction as per input value
+		AddMovementInput(Direction, value);
+	}
+}
+
+void AMainPlayer::MoveRight(float value)
+{
+	if ((Controller != nullptr) && (value != 0.f))
+	{
+		// Get controller rotation and store it yaw rotation
+		const FRotator Rotation = GetControlRotation();
+		const FRotator YawRotation(0.f, Rotation.Yaw, 0.f);
+
+		// Get right direction of yaw rotation using rotation matrix
+		const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
+
+		// Move player in direction as per input value
+		AddMovementInput(Direction, value);
+	}
 }

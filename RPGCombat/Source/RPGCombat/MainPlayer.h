@@ -15,13 +15,19 @@ public:
 	// Sets default values for this character's properties
 	AMainPlayer();
 
-	/**Camera Boom position the camera behind player*/
+	/** Camera Boom position the camera behind player */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 		class USpringArmComponent* CameraBoom;
 
-	/**Follow Camera*/
+	/** Follow Camera */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 		class UCameraComponent* FollowCamera;
+
+	/** Base turn rate and look up rate to scale turning and look function for the camera */
+	UPROPERTY(VisibleAnywhere, BluePrintReadOnly, Category = Camera)
+		float BaseTurnRate;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera)
+		float BaseLookUpRate;
 
 protected:
 	// Called when the game starts or when spawned
@@ -33,5 +39,11 @@ public:
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+
+	/** Move player forward/backward as per user input value */
+	void MoveForward(float value);
+
+	/** Move player right/left as per user input value */
+	void MoveRight(float value);
 
 };
