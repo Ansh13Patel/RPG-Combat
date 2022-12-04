@@ -4,6 +4,7 @@
   Building 4 actions with 8 processes...
     [1/4] MainPlayer.cpp
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     [2/4] UE4Editor-RPGCombat-0009.lib
        Creating library D:\My Games\RPG-Combat\RPGCombat\Intermediate\Build\Win64\UE4Editor\Development\RPGCombat\UE4Editor-RPGCombat-0009.lib and object D:\My Games\RPG-Combat\RPGCombat\Intermediate\Build\Win64\UE4Editor\Development\RPGCombat\UE4Editor-RPGCombat-0009.exp
     [3/4] UE4Editor-RPGCombat-0009.dll
@@ -12,6 +13,8 @@
   Total time in Parallel executor: 189.93 seconds
   Total execution time: 191.52 seconds
 =======
+=======
+>>>>>>> Stashed changes
     [2/4] UE4Editor-RPGCombat-0003.lib
        Creating library D:\My Games\RPG-Combat\RPGCombat\Intermediate\Build\Win64\UE4Editor\Development\RPGCombat\UE4Editor-RPGCombat-0003.lib and object D:\My Games\RPG-Combat\RPGCombat\Intermediate\Build\Win64\UE4Editor\Development\RPGCombat\UE4Editor-RPGCombat-0003.exp
     [3/4] UE4Editor-RPGCombat-0003.dll
@@ -19,4 +22,7 @@
     [4/4] RPGCombatEditor.target
   Total time in Parallel executor: 195.66 seconds
   Total execution time: 197.58 seconds
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes

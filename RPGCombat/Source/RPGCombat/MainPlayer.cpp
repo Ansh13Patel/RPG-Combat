@@ -48,6 +48,7 @@ void AMainPlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	check(PlayerInputComponent);
 
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
@@ -62,6 +63,8 @@ void AMainPlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 	PlayerInputComponent->BindAxis("TurnRate", this, &AMainPlayer::TurnAtRate);
 	PlayerInputComponent->BindAxis("LookUpRate", this, &AMainPlayer::LookUpAtRate);
 =======
+=======
+>>>>>>> Stashed changes
 	// Check if @param PlayerInputComponent is valid and not null
 	check(PlayerInputComponent);
 
@@ -82,11 +85,15 @@ void AMainPlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 	// Bind function to look up/down and  turn right/left using mouse
 	PlayerInputComponent->BindAxis("LookUp", this, &APawn::AddControllerPitchInput);
 	PlayerInputComponent->BindAxis("Turn", this, &APawn::AddControllerYawInput);
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 }
 
 void AMainPlayer::MoveForward(float Value)
 {
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 	if ((Controller != nullptr) && (Value != 0.f))
 	{
@@ -99,6 +106,8 @@ void AMainPlayer::MoveForward(float Value)
 
 		// Move player in direction as per input value
 =======
+=======
+>>>>>>> Stashed changes
 	if (Controller != nullptr && Value != 0.f)
 	{
 		FRotator Rotation = GetControlRotation();
@@ -106,6 +115,9 @@ void AMainPlayer::MoveForward(float Value)
 
 		FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
 
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 		AddMovementInput(Direction, Value);
 	}
@@ -113,6 +125,7 @@ void AMainPlayer::MoveForward(float Value)
 
 void AMainPlayer::MoveRight(float Value)
 {
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 	if ((Controller != nullptr) && (Value != 0.f))
 	{
@@ -125,6 +138,8 @@ void AMainPlayer::MoveRight(float Value)
 
 		// Move player in direction as per input value
 =======
+=======
+>>>>>>> Stashed changes
 	if (Controller != nullptr && Value != 0.f)
 	{
 		FRotator Rotation = GetControlRotation();
@@ -132,6 +147,9 @@ void AMainPlayer::MoveRight(float Value)
 
 		FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
 
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 		AddMovementInput(Direction, Value);
 	}
@@ -143,7 +161,10 @@ void AMainPlayer::TurnAtRate(float Rate)
 }
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 void AMainPlayer::LookUpAtRate(float Rate)

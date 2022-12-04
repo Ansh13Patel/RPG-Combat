@@ -69,7 +69,11 @@ void EmptyLinkFunctionForGeneratedCodeMainPlayer() {}
 		{ "AllowPrivateAccess", "true" },
 		{ "Category", "Camera" },
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		{ "Comment", "/** Camera Boom position the camera behind player */" },
+=======
+		{ "Comment", "/**Camera Boom position the camera behind player*/" },
+>>>>>>> Stashed changes
 =======
 		{ "Comment", "/**Camera Boom position the camera behind player*/" },
 >>>>>>> Stashed changes
@@ -84,7 +88,11 @@ void EmptyLinkFunctionForGeneratedCodeMainPlayer() {}
 		{ "AllowPrivateAccess", "true" },
 		{ "Category", "Camera" },
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		{ "Comment", "/** Follow Camera */" },
+=======
+		{ "Comment", "/**Follow Camera*/" },
+>>>>>>> Stashed changes
 =======
 		{ "Comment", "/**Follow Camera*/" },
 >>>>>>> Stashed changes
@@ -98,9 +106,13 @@ void EmptyLinkFunctionForGeneratedCodeMainPlayer() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMainPlayer_Statics::NewProp_BaseTurnRate_MetaData[] = {
 		{ "Category", "Camera" },
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		{ "Comment", "/** Base turn rate and look up rate to scale turning and look function for the camera */" },
 		{ "ModuleRelativePath", "MainPlayer.h" },
 		{ "ToolTip", "Base turn rate and look up rate to scale turning and look function for the camera" },
+=======
+		{ "ModuleRelativePath", "MainPlayer.h" },
+>>>>>>> Stashed changes
 =======
 		{ "ModuleRelativePath", "MainPlayer.h" },
 >>>>>>> Stashed changes
@@ -148,7 +160,11 @@ void EmptyLinkFunctionForGeneratedCodeMainPlayer() {}
 		return OuterClass;
 	}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	IMPLEMENT_CLASS(AMainPlayer, 2719982902);
+=======
+	IMPLEMENT_CLASS(AMainPlayer, 3170524097);
+>>>>>>> Stashed changes
 =======
 	IMPLEMENT_CLASS(AMainPlayer, 3170524097);
 >>>>>>> Stashed changes
