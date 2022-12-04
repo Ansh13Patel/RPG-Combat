@@ -68,7 +68,11 @@ void EmptyLinkFunctionForGeneratedCodeMainPlayer() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMainPlayer_Statics::NewProp_CameraBoom_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
 		{ "Category", "Camera" },
+<<<<<<< Updated upstream
 		{ "Comment", "/** Camera Boom position the camera behind player */" },
+=======
+		{ "Comment", "/**Camera Boom position the camera behind player*/" },
+>>>>>>> Stashed changes
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "MainPlayer.h" },
 		{ "ToolTip", "Camera Boom position the camera behind player" },
@@ -79,7 +83,11 @@ void EmptyLinkFunctionForGeneratedCodeMainPlayer() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMainPlayer_Statics::NewProp_FollowCamera_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
 		{ "Category", "Camera" },
+<<<<<<< Updated upstream
 		{ "Comment", "/** Follow Camera */" },
+=======
+		{ "Comment", "/**Follow Camera*/" },
+>>>>>>> Stashed changes
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "MainPlayer.h" },
 		{ "ToolTip", "Follow Camera" },
@@ -89,9 +97,13 @@ void EmptyLinkFunctionForGeneratedCodeMainPlayer() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMainPlayer_Statics::NewProp_BaseTurnRate_MetaData[] = {
 		{ "Category", "Camera" },
+<<<<<<< Updated upstream
 		{ "Comment", "/** Base turn rate and look up rate to scale turning and look function for the camera */" },
 		{ "ModuleRelativePath", "MainPlayer.h" },
 		{ "ToolTip", "Base turn rate and look up rate to scale turning and look function for the camera" },
+=======
+		{ "ModuleRelativePath", "MainPlayer.h" },
+>>>>>>> Stashed changes
 	};
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AMainPlayer_Statics::NewProp_BaseTurnRate = { "BaseTurnRate", nullptr, (EPropertyFlags)0x0010000000020015, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMainPlayer, BaseTurnRate), METADATA_PARAMS(Z_Construct_UClass_AMainPlayer_Statics::NewProp_BaseTurnRate_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMainPlayer_Statics::NewProp_BaseTurnRate_MetaData)) };
@@ -135,7 +147,11 @@ void EmptyLinkFunctionForGeneratedCodeMainPlayer() {}
 		}
 		return OuterClass;
 	}
+<<<<<<< Updated upstream
 	IMPLEMENT_CLASS(AMainPlayer, 2719982902);
+=======
+	IMPLEMENT_CLASS(AMainPlayer, 3170524097);
+>>>>>>> Stashed changes
 	template<> RPGCOMBAT_API UClass* StaticClass<AMainPlayer>()
 	{
 		return AMainPlayer::StaticClass();
