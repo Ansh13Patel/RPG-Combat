@@ -2,14 +2,6 @@
 	"BuildId": "17155196",
 	"Modules": 
 	{
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-		"RPGCombat": "UE4Editor-RPGCombat-0009.dll"
-=======
-		"RPGCombat": "UE4Editor-RPGCombat-1239.dll"
->>>>>>> Stashed changes
-=======
-		"RPGCombat": "UE4Editor-RPGCombat-1239.dll"
->>>>>>> Stashed changes
+		"RPGCombat": "UE4Editor-RPGCombat.dll"
 	}
 }

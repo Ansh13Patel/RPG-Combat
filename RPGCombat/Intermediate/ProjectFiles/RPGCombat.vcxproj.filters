@@ -3,15 +3,7 @@
   <ItemGroup>
     <None Include="..\..\RPGCombat.uproject" />
     <Filter Include="Source">
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-      <UniqueIdentifier>{69B335AA-4CE6-4270-B272-09F07C98FBCF}</UniqueIdentifier>
-=======
-      <UniqueIdentifier>{4AF7DB76-CA28-4A1C-9FC7-599542D0D622}</UniqueIdentifier>
->>>>>>> Stashed changes
-=======
-      <UniqueIdentifier>{4AF7DB76-CA28-4A1C-9FC7-599542D0D622}</UniqueIdentifier>
->>>>>>> Stashed changes
+      <UniqueIdentifier>{735DA0B4-7BCF-4C6B-BE70-F40E3FC59727}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\RPGCombat.Target.cs">
       <Filter>Source</Filter>
@@ -20,15 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-      <UniqueIdentifier>{DAEF0325-2EBA-44B6-B3C7-16BF8055F412}</UniqueIdentifier>
-=======
-      <UniqueIdentifier>{16590E1A-7F31-487F-B307-93C6DF6600F5}</UniqueIdentifier>
->>>>>>> Stashed changes
-=======
-      <UniqueIdentifier>{16590E1A-7F31-487F-B307-93C6DF6600F5}</UniqueIdentifier>
->>>>>>> Stashed changes
+      <UniqueIdentifier>{9227775B-626C-49AD-BD41-346B823DFEFB}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -43,15 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\RPGCombat">
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-      <UniqueIdentifier>{1E483566-1FDA-4034-83EF-5EC7991077CB}</UniqueIdentifier>
-=======
-      <UniqueIdentifier>{AEB3FA2F-D79A-4EEE-9271-DB41146F3617}</UniqueIdentifier>
->>>>>>> Stashed changes
-=======
-      <UniqueIdentifier>{AEB3FA2F-D79A-4EEE-9271-DB41146F3617}</UniqueIdentifier>
->>>>>>> Stashed changes
+      <UniqueIdentifier>{78F9451B-54A7-4C51-90D9-A318EB1EABD0}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\RPGCombat\MainPlayer.cpp">
       <Filter>Source\RPGCombat</Filter>

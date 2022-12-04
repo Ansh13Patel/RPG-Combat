@@ -21,15 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeRPGCombat_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-				0xD9E992EF,
-=======
 				0x8F028936,
->>>>>>> Stashed changes
-=======
-				0x8F028936,
->>>>>>> Stashed changes
 				0x3A166A10,
 				METADATA_PARAMS(nullptr, 0)
 			};
