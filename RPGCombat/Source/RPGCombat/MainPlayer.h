@@ -41,9 +41,22 @@ public:
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
 	/** Move player forward/backward as per user input value */
-	void MoveForward(float value);
+	void MoveForward(float Value);
 
 	/** Move player right/left as per user input value */
-	void MoveRight(float value);
+	void MoveRight(float Value);
+
+	/** Called via input to turn at a given rate
+	* @param Rate This is a normalize rate, i.e. 1.0 means 100% of desired turn rate
+	*/
+	void TurnAtRate(float Rate);
+
+	/** Called via input to look up/down at a given rate
+	* @param Rate This is a normalize rate, i.e. 1.0 means 100% of desired look up/down rate
+	*/
+	void LookUpAtRate(float Rate);
+
+	FORCEINLINE class USpringArmComponent* GetCameraBoom() { return CameraBoom; }
+	FORCEINLINE class UCameraComponent* GetFollowCamera() { return FollowCamera; }
 
 };

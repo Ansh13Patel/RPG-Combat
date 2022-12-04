@@ -4,6 +4,7 @@
 #include "MainPlayer.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "Camera/CameraComponent.h"
+#include "Engine/World.h"
 
 
 // Sets default values
@@ -46,14 +47,24 @@ void AMainPlayer::Tick(float DeltaTime)
 void AMainPlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
+	check(PlayerInputComponent);
+
+	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
+	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
 
 	PlayerInputComponent->BindAxis("MoveForward", this, &AMainPlayer::MoveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &AMainPlayer::MoveRight);
+
+	PlayerInputComponent->BindAxis("Turn", this, &APawn::AddControllerYawInput);
+	PlayerInputComponent->BindAxis("LookUp", this, &APawn::AddControllerPitchInput);
+
+	PlayerInputComponent->BindAxis("TurnRate", this, &AMainPlayer::TurnAtRate);
+	PlayerInputComponent->BindAxis("LookUpRate", this, &AMainPlayer::LookUpAtRate);
 }
 
-void AMainPlayer::MoveForward(float value)
+void AMainPlayer::MoveForward(float Value)
 {
-	if ((Controller != nullptr) && (value != 0.f))
+	if ((Controller != nullptr) && (Value != 0.f))
 	{
 		// Get controller rotation and store it yaw rotation
 		const FRotator Rotation = GetControlRotation();
@@ -63,13 +74,13 @@ void AMainPlayer::MoveForward(float value)
 		const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
 
 		// Move player in direction as per input value
-		AddMovementInput(Direction, value);
+		AddMovementInput(Direction, Value);
 	}
 }
 
-void AMainPlayer::MoveRight(float value)
+void AMainPlayer::MoveRight(float Value)
 {
-	if ((Controller != nullptr) && (value != 0.f))
+	if ((Controller != nullptr) && (Value != 0.f))
 	{
 		// Get controller rotation and store it yaw rotation
 		const FRotator Rotation = GetControlRotation();
@@ -79,6 +90,17 @@ void AMainPlayer::MoveRight(float value)
 		const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
 
 		// Move player in direction as per input value
-		AddMovementInput(Direction, value);
+		AddMovementInput(Direction, Value);
 	}
+}
+
+void AMainPlayer::TurnAtRate(float Rate)
+{
+	AddControllerYawInput(Rate * BaseTurnRate * GetWorld()->GetDeltaSeconds());
+}
+
+
+void AMainPlayer::LookUpAtRate(float Rate)
+{
+	AddControllerPitchInput(Rate * BaseLookUpRate * GetWorld()->GetDeltaSeconds());
 }
