@@ -5,6 +5,8 @@
 #include "GameFramework/SpringArmComponent.h"
 #include "Camera/CameraComponent.h"
 #include "Engine/World.h"
+#include "Components/CapsuleComponent.h"
+#include "GameFramework/CharacterMovementComponent.h"
 
 
 // Sets default values
@@ -19,6 +21,9 @@ AMainPlayer::AMainPlayer()
 	CameraBoom->TargetArmLength = 500.f; // Camera Boom follow player at this distance
 	CameraBoom->bUsePawnControlRotation = true; // Rotate arm based on comtroller
 
+	// Set Capsule collider radius and height
+	GetCapsuleComponent()->SetCapsuleSize(48.f, 105.f);
+
 	// Create Follow Camera
 	FollowCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("FollowCamera"));
 	FollowCamera->SetupAttachment(CameraBoom, USpringArmComponent::SocketName);
@@ -27,6 +32,17 @@ AMainPlayer::AMainPlayer()
 
 	BaseTurnRate = 65.f;
 	BaseLookUpRate = 65.f;
+
+	// Player do not get affect by rotation only camera get affected
+	bUseControllerRotationPitch = false;
+	bUseControllerRotationRoll = false;
+	bUseControllerRotationYaw = false;
+
+	// Configure Character movement 
+	GetCharacterMovement()->bOrientRotationToMovement = true; // Rotate player in direction of input...
+	GetCharacterMovement()->RotationRate = FRotator(0.f, 540.f, 0.f); // ...rotate player at this rate
+	GetCharacterMovement()->JumpZVelocity = 650.f; // Player jump at this velocity
+	GetCharacterMovement()->AirControl = 0.2f; // how much player can control in air (1 for full control and 0 for no control)
 }
 
 // Called when the game starts or when spawned
