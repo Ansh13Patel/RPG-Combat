@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\RPGCombat.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{46E82D3A-D262-4DDD-B187-B64B54A2BB73}</UniqueIdentifier>
+      <UniqueIdentifier>{A3A21FFB-40FE-4E0B-BE64-018F294F6CE5}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\RPGCombat.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{56C49236-E06F-4E3B-9593-8253012805B3}</UniqueIdentifier>
+      <UniqueIdentifier>{A5C26C56-EBBB-4696-84C9-B845A41F5B38}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -23,9 +23,24 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
     <Filter Include="Source\RPGCombat">
-      <UniqueIdentifier>{83369C1A-C09B-47C5-804F-6DE7C35DE2B8}</UniqueIdentifier>
+      <UniqueIdentifier>{AA289D86-A8D3-43DB-A0DC-DDA0C7E2CC6C}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\RPGCombat\MainPlayer.cpp">
+      <Filter>Source\RPGCombat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RPGCombat\MainPlayer.h">
+      <Filter>Source\RPGCombat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\RPGCombat\MainPlayerAnimInstance.cpp">
+      <Filter>Source\RPGCombat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RPGCombat\MainPlayerAnimInstance.h">
+      <Filter>Source\RPGCombat</Filter>
+    </ClInclude>
     <None Include="..\..\Source\RPGCombat\RPGCombat.Build.cs">
       <Filter>Source\RPGCombat</Filter>
     </None>
@@ -33,6 +48,12 @@
       <Filter>Source\RPGCombat</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\RPGCombat\RPGCombat.h">
+      <Filter>Source\RPGCombat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\RPGCombat\RPGCombatGameMode.cpp">
+      <Filter>Source\RPGCombat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RPGCombat\RPGCombatGameMode.h">
       <Filter>Source\RPGCombat</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\RPGCombat\RPGCombatGameModeBase.cpp">
