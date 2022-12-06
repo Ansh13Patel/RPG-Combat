@@ -1,0 +1,7 @@
+D:\My Games\RPG-Combat\RPGCombat\Intermediate\Build\Win64\UE4Editor\Development\RPGCombat\Definitions.RPGCombat.h
+D:\My Games\RPG-Combat\RPGCombat\Source\RPGCombat\FloorSwitch.h
+D:\My Games\RPG-Combat\RPGCombat\Intermediate\Build\Win64\UE4Editor\Inc\RPGCombat\FloorSwitch.generated.h
+C:\Program Files\Unreal Engine\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/BoxComponent.h
+C:\Program Files\Unreal Engine\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
+C:\Program Files\Unreal Engine\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
+C:\Program Files\Unreal Engine\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\BoxComponent.generated.h
