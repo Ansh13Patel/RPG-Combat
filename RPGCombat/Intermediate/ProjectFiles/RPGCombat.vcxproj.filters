@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\RPGCombat.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{735DA0B4-7BCF-4C6B-BE70-F40E3FC59727}</UniqueIdentifier>
+      <UniqueIdentifier>{A3A21FFB-40FE-4E0B-BE64-018F294F6CE5}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\RPGCombat.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{9227775B-626C-49AD-BD41-346B823DFEFB}</UniqueIdentifier>
+      <UniqueIdentifier>{A5C26C56-EBBB-4696-84C9-B845A41F5B38}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,12 +27,18 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\RPGCombat">
-      <UniqueIdentifier>{78F9451B-54A7-4C51-90D9-A318EB1EABD0}</UniqueIdentifier>
+      <UniqueIdentifier>{AA289D86-A8D3-43DB-A0DC-DDA0C7E2CC6C}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\RPGCombat\MainPlayer.cpp">
       <Filter>Source\RPGCombat</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\RPGCombat\MainPlayer.h">
+      <Filter>Source\RPGCombat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\RPGCombat\MainPlayerAnimInstance.cpp">
+      <Filter>Source\RPGCombat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RPGCombat\MainPlayerAnimInstance.h">
       <Filter>Source\RPGCombat</Filter>
     </ClInclude>
     <None Include="..\..\Source\RPGCombat\RPGCombat.Build.cs">
