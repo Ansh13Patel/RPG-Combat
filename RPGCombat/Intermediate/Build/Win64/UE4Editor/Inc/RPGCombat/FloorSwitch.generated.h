@@ -19,16 +19,22 @@ struct FHitResult;
 #define RPGCombat_Source_RPGCombat_FloorSwitch_h_12_SPARSE_DATA
 #define RPGCombat_Source_RPGCombat_FloorSwitch_h_12_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execUpdateFloorSwitchLocation); \
+	DECLARE_FUNCTION(execUpdateDoorLocation); \
 	DECLARE_FUNCTION(execOnEndOverlap); \
 	DECLARE_FUNCTION(execOnBeginOverlap);
 
 
 #define RPGCombat_Source_RPGCombat_FloorSwitch_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execUpdateFloorSwitchLocation); \
+	DECLARE_FUNCTION(execUpdateDoorLocation); \
 	DECLARE_FUNCTION(execOnEndOverlap); \
 	DECLARE_FUNCTION(execOnBeginOverlap);
 
 
+#define RPGCombat_Source_RPGCombat_FloorSwitch_h_12_EVENT_PARMS
+#define RPGCombat_Source_RPGCombat_FloorSwitch_h_12_CALLBACK_WRAPPERS
 #define RPGCombat_Source_RPGCombat_FloorSwitch_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAFloorSwitch(); \
@@ -72,13 +78,17 @@ public: \
 
 
 #define RPGCombat_Source_RPGCombat_FloorSwitch_h_12_PRIVATE_PROPERTY_OFFSET
-#define RPGCombat_Source_RPGCombat_FloorSwitch_h_9_PROLOG
+#define RPGCombat_Source_RPGCombat_FloorSwitch_h_9_PROLOG \
+	RPGCombat_Source_RPGCombat_FloorSwitch_h_12_EVENT_PARMS
+
+
 #define RPGCombat_Source_RPGCombat_FloorSwitch_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	RPGCombat_Source_RPGCombat_FloorSwitch_h_12_PRIVATE_PROPERTY_OFFSET \
 	RPGCombat_Source_RPGCombat_FloorSwitch_h_12_SPARSE_DATA \
 	RPGCombat_Source_RPGCombat_FloorSwitch_h_12_RPC_WRAPPERS \
+	RPGCombat_Source_RPGCombat_FloorSwitch_h_12_CALLBACK_WRAPPERS \
 	RPGCombat_Source_RPGCombat_FloorSwitch_h_12_INCLASS \
 	RPGCombat_Source_RPGCombat_FloorSwitch_h_12_STANDARD_CONSTRUCTORS \
 public: \
@@ -91,6 +101,7 @@ public: \
 	RPGCombat_Source_RPGCombat_FloorSwitch_h_12_PRIVATE_PROPERTY_OFFSET \
 	RPGCombat_Source_RPGCombat_FloorSwitch_h_12_SPARSE_DATA \
 	RPGCombat_Source_RPGCombat_FloorSwitch_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	RPGCombat_Source_RPGCombat_FloorSwitch_h_12_CALLBACK_WRAPPERS \
 	RPGCombat_Source_RPGCombat_FloorSwitch_h_12_INCLASS_NO_PURE_DECLS \
 	RPGCombat_Source_RPGCombat_FloorSwitch_h_12_ENHANCED_CONSTRUCTORS \
 private: \
