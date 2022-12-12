@@ -10,8 +10,8 @@ UCLASS()
 class RPGCOMBAT_API AFloorSwitch : public AActor
 {
 	GENERATED_BODY()
-	
-public:	
+
+public:
 	// Sets default values for this actor's properties
 	AFloorSwitch();
 
@@ -33,23 +33,32 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Floor Switch")
 		FVector InitialFloorSwitchLocation;
 
+	FTimerHandle SwitchHandle;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Floor Switch")
+		float SwitchTime;
+
+	bool bCharacterOnSwitch;
+
+	void CloseDoor();
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-public:	
+public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
 	UFUNCTION()
-		void OnBeginOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, 
-			                UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, 
-			                bool bFromSweep, const FHitResult &SweepResult);
+		void OnBeginOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,
+			UPrimitiveComponent* OtherComp, int32 OtherBodyIndex,
+			bool bFromSweep, const FHitResult& SweepResult);
 
 	UFUNCTION()
-		void OnEndOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, 
-			              UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
-	
+		void OnEndOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,
+			UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
+
 	UFUNCTION(BlueprintImplementableEvent, Category = "Floor Switch")
 		void RaiseDoor();
 

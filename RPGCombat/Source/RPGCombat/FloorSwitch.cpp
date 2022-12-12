@@ -4,11 +4,12 @@
 #include "FloorSwitch.h"
 #include "Components/BoxComponent.h"
 #include "Components/StaticMeshComponent.h"
+#include "TimerManager.h"
 
 // Sets default values
 AFloorSwitch::AFloorSwitch()
 {
- 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
 	TriggerBox = CreateDefaultSubobject<UBoxComponent>(TEXT("TriggerBox"));
@@ -25,13 +26,16 @@ AFloorSwitch::AFloorSwitch()
 
 	Door = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Door"));
 	Door->SetupAttachment(GetRootComponent());
+
+	SwitchTime = 2.f;
+	bCharacterOnSwitch = false;
 }
 
 // Called when the game starts or when spawned
 void AFloorSwitch::BeginPlay()
 {
 	Super::BeginPlay();
-	
+
 	TriggerBox->OnComponentBeginOverlap.AddDynamic(this, &AFloorSwitch::OnBeginOverlap);
 	TriggerBox->OnComponentEndOverlap.AddDynamic(this, &AFloorSwitch::OnEndOverlap);
 
@@ -46,19 +50,20 @@ void AFloorSwitch::Tick(float DeltaTime)
 
 }
 
-void AFloorSwitch::OnBeginOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, 
-	                              UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, 
-	                              bool bFromSweep, const FHitResult& SweepResult)
+void AFloorSwitch::OnBeginOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,
+	UPrimitiveComponent* OtherComp, int32 OtherBodyIndex,
+	bool bFromSweep, const FHitResult& SweepResult)
 {
+	if (!bCharacterOnSwitch) bCharacterOnSwitch = true;
 	RaiseDoor();
 	LowerFloorSwitch();
 }
 
 void AFloorSwitch::OnEndOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,
-	                            UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)
+	UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)
 {
-	LowerDoor();
-	RaiseFloorSwitch();
+	if (bCharacterOnSwitch) bCharacterOnSwitch = false;
+	GetWorldTimerManager().SetTimer(SwitchHandle, this, &AFloorSwitch::CloseDoor, SwitchTime);
 }
 
 void AFloorSwitch::UpdateDoorLocation(float Z)
@@ -73,4 +78,13 @@ void AFloorSwitch::UpdateFloorSwitchLocation(float Z)
 	FVector NewLocation = InitialFloorSwitchLocation;
 	NewLocation.Z += Z;
 	FloorSwitch->SetWorldLocation(NewLocation);
+}
+
+void AFloorSwitch::CloseDoor()
+{
+	if (!bCharacterOnSwitch)
+	{
+		LowerDoor();
+		RaiseFloorSwitch();
+	}
 }

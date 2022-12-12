@@ -95,7 +95,7 @@ void EmptyLinkFunctionForGeneratedCodeMainPlayerAnimInstance() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMainPlayerAnimInstance_Statics::Class_MetaDataParams[] = {
-		{ "Comment", "/**\n * \n */" },
+		{ "Comment", "/**\n *\n */" },
 		{ "HideCategories", "AnimInstance" },
 		{ "IncludePath", "MainPlayerAnimInstance.h" },
 		{ "ModuleRelativePath", "MainPlayerAnimInstance.h" },
@@ -158,7 +158,7 @@ void EmptyLinkFunctionForGeneratedCodeMainPlayerAnimInstance() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UMainPlayerAnimInstance, 4287407537);
+	IMPLEMENT_CLASS(UMainPlayerAnimInstance, 3291878591);
 	template<> RPGCOMBAT_API UClass* StaticClass<UMainPlayerAnimInstance>()
 	{
 		return UMainPlayerAnimInstance::StaticClass();

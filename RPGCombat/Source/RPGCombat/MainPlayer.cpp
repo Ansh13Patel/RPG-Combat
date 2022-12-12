@@ -73,7 +73,7 @@ void AMainPlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 
 	// Bind function to move forward and backward
 	PlayerInputComponent->BindAxis("MoveForward", this, &AMainPlayer::MoveForward);
-	
+
 	// Bind function to move right/left
 	PlayerInputComponent->BindAxis("MoveRight", this, &AMainPlayer::MoveRight);
 

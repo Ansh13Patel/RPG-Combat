@@ -1,12 +1,17 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\My Games\RPG-Combat).
+  Parsing headers for RPGCombatEditor
+    Running UnrealHeaderTool "D:\My Games\RPG-Combat\RPGCombat\RPGCombat.uproject" "D:\My Games\RPG-Combat\RPGCombat\Intermediate\Build\Win64\RPGCombatEditor\Development\RPGCombatEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\anshp\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+  LogInit: Display: Loading text-based GConfig....
+  Reflection code generated for RPGCombatEditor in 9.3564936 seconds
   Building RPGCombatEditor...
   Using Visual Studio 2022 14.34.31935 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 4 actions with 8 processes...
-    [1/4] FloorSwitch.cpp
-    [2/4] UE4Editor-RPGCombat-0028.lib
-       Creating library D:\My Games\RPG-Combat\RPGCombat\Intermediate\Build\Win64\UE4Editor\Development\RPGCombat\UE4Editor-RPGCombat-0028.lib and object D:\My Games\RPG-Combat\RPGCombat\Intermediate\Build\Win64\UE4Editor\Development\RPGCombat\UE4Editor-RPGCombat-0028.exp
-    [3/4] UE4Editor-RPGCombat-0028.dll
-       Creating library D:\My Games\RPG-Combat\RPGCombat\Intermediate\Build\Win64\UE4Editor\Development\RPGCombat\UE4Editor-RPGCombat-0028.suppressed.lib and object D:\My Games\RPG-Combat\RPGCombat\Intermediate\Build\Win64\UE4Editor\Development\RPGCombat\UE4Editor-RPGCombat-0028.suppressed.exp
-    [4/4] RPGCombatEditor.target
-  Total time in Parallel executor: 2.77 seconds
-  Total execution time: 4.25 seconds
+  Building 5 actions with 8 processes...
+    [1/5] FloorSwitch.cpp
+    [2/5] FloorSwitch.gen.cpp
+    [3/5] UE4Editor-RPGCombat-0031.lib
+       Creating library D:\My Games\RPG-Combat\RPGCombat\Intermediate\Build\Win64\UE4Editor\Development\RPGCombat\UE4Editor-RPGCombat-0031.lib and object D:\My Games\RPG-Combat\RPGCombat\Intermediate\Build\Win64\UE4Editor\Development\RPGCombat\UE4Editor-RPGCombat-0031.exp
+    [4/5] UE4Editor-RPGCombat-0031.dll
+       Creating library D:\My Games\RPG-Combat\RPGCombat\Intermediate\Build\Win64\UE4Editor\Development\RPGCombat\UE4Editor-RPGCombat-0031.suppressed.lib and object D:\My Games\RPG-Combat\RPGCombat\Intermediate\Build\Win64\UE4Editor\Development\RPGCombat\UE4Editor-RPGCombat-0031.suppressed.exp
+    [5/5] RPGCombatEditor.target
+  Total time in Parallel executor: 4.27 seconds
+  Total execution time: 15.35 seconds

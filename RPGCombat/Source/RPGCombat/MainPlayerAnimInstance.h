@@ -7,7 +7,7 @@
 #include "MainPlayerAnimInstance.generated.h"
 
 /**
- * 
+ *
  */
 UCLASS()
 class RPGCOMBAT_API UMainPlayerAnimInstance : public UAnimInstance
@@ -19,7 +19,7 @@ public:
 	virtual void NativeInitializeAnimation() override;
 
 	UFUNCTION(BlueprintCallable, Category = AnimationProperties)
-	void UpdateAnimationProperties();
+		void UpdateAnimationProperties();
 
 	UPROPERTY(EditAnywhere, BluePrintReadOnly, Category = Movement)
 		float MovementSpeed;
