@@ -8,6 +8,7 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UObject;
 struct FVector;
 #ifdef RPGCOMBAT_SpawnVolume_generated_h
 #error "SpawnVolume.generated.h already included, missing '#pragma once' in SpawnVolume.h"
@@ -16,15 +17,28 @@ struct FVector;
 
 #define RPGCombat_Source_RPGCombat_SpawnVolume_h_12_SPARSE_DATA
 #define RPGCombat_Source_RPGCombat_SpawnVolume_h_12_RPC_WRAPPERS \
+	virtual void SpawnOurPawn_Implementation(UClass* ToSpawn, FVector const& Location); \
  \
+	DECLARE_FUNCTION(execSpawnOurPawn); \
 	DECLARE_FUNCTION(execGetSpawnPoint);
 
 
 #define RPGCombat_Source_RPGCombat_SpawnVolume_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	virtual void SpawnOurPawn_Implementation(UClass* ToSpawn, FVector const& Location); \
  \
+	DECLARE_FUNCTION(execSpawnOurPawn); \
 	DECLARE_FUNCTION(execGetSpawnPoint);
 
 
+#define RPGCombat_Source_RPGCombat_SpawnVolume_h_12_EVENT_PARMS \
+	struct SpawnVolume_eventSpawnOurPawn_Parms \
+	{ \
+		UClass* ToSpawn; \
+		FVector Location; \
+	};
+
+
+#define RPGCombat_Source_RPGCombat_SpawnVolume_h_12_CALLBACK_WRAPPERS
 #define RPGCombat_Source_RPGCombat_SpawnVolume_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesASpawnVolume(); \
@@ -68,13 +82,17 @@ public: \
 
 
 #define RPGCombat_Source_RPGCombat_SpawnVolume_h_12_PRIVATE_PROPERTY_OFFSET
-#define RPGCombat_Source_RPGCombat_SpawnVolume_h_9_PROLOG
+#define RPGCombat_Source_RPGCombat_SpawnVolume_h_9_PROLOG \
+	RPGCombat_Source_RPGCombat_SpawnVolume_h_12_EVENT_PARMS
+
+
 #define RPGCombat_Source_RPGCombat_SpawnVolume_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	RPGCombat_Source_RPGCombat_SpawnVolume_h_12_PRIVATE_PROPERTY_OFFSET \
 	RPGCombat_Source_RPGCombat_SpawnVolume_h_12_SPARSE_DATA \
 	RPGCombat_Source_RPGCombat_SpawnVolume_h_12_RPC_WRAPPERS \
+	RPGCombat_Source_RPGCombat_SpawnVolume_h_12_CALLBACK_WRAPPERS \
 	RPGCombat_Source_RPGCombat_SpawnVolume_h_12_INCLASS \
 	RPGCombat_Source_RPGCombat_SpawnVolume_h_12_STANDARD_CONSTRUCTORS \
 public: \
@@ -87,6 +105,7 @@ public: \
 	RPGCombat_Source_RPGCombat_SpawnVolume_h_12_PRIVATE_PROPERTY_OFFSET \
 	RPGCombat_Source_RPGCombat_SpawnVolume_h_12_SPARSE_DATA \
 	RPGCombat_Source_RPGCombat_SpawnVolume_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	RPGCombat_Source_RPGCombat_SpawnVolume_h_12_CALLBACK_WRAPPERS \
 	RPGCombat_Source_RPGCombat_SpawnVolume_h_12_INCLASS_NO_PURE_DECLS \
 	RPGCombat_Source_RPGCombat_SpawnVolume_h_12_ENHANCED_CONSTRUCTORS \
 private: \
