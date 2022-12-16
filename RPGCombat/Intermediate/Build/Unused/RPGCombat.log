@@ -1,7 +1,12 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\My Games\RPG-Combat).
   Building RPGCombatEditor...
   Using Visual Studio 2022 14.34.31935 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 1 action with 8 processes...
-    [1/1] RPGCombatEditor.target
-  Total time in Parallel executor: 0.49 seconds
-  Total execution time: 2.29 seconds
+  Building 4 actions with 8 processes...
+    [1/4] FloatingPlatform.cpp
+    [2/4] UE4Editor-RPGCombat-0006.lib
+       Creating library D:\My Games\RPG-Combat\RPGCombat\Intermediate\Build\Win64\UE4Editor\Development\RPGCombat\UE4Editor-RPGCombat-0006.lib and object D:\My Games\RPG-Combat\RPGCombat\Intermediate\Build\Win64\UE4Editor\Development\RPGCombat\UE4Editor-RPGCombat-0006.exp
+    [3/4] UE4Editor-RPGCombat-0006.dll
+       Creating library D:\My Games\RPG-Combat\RPGCombat\Intermediate\Build\Win64\UE4Editor\Development\RPGCombat\UE4Editor-RPGCombat-0006.suppressed.lib and object D:\My Games\RPG-Combat\RPGCombat\Intermediate\Build\Win64\UE4Editor\Development\RPGCombat\UE4Editor-RPGCombat-0006.suppressed.exp
+    [4/4] RPGCombatEditor.target
+  Total time in Parallel executor: 2.02 seconds
+  Total execution time: 3.34 seconds

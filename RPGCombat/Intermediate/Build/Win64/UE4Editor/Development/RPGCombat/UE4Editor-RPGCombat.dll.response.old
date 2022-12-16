@@ -34,6 +34,7 @@
 /NODEFAULTLIB:"LIBCPD"
 /FUNCTIONPADMIN
 "D:\My Games\RPG-Combat\RPGCombat\Intermediate\Build\Win64\RPGCombatEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\My Games\RPG-Combat\RPGCombat\Intermediate\Build\Win64\UE4Editor\Development\RPGCombat\Critter.cpp.obj"
 "D:\My Games\RPG-Combat\RPGCombat\Intermediate\Build\Win64\UE4Editor\Development\RPGCombat\FloorSwitch.cpp.obj"
 "D:\My Games\RPG-Combat\RPGCombat\Intermediate\Build\Win64\UE4Editor\Development\RPGCombat\MainPlayer.cpp.obj"
 "D:\My Games\RPG-Combat\RPGCombat\Intermediate\Build\Win64\UE4Editor\Development\RPGCombat\MainPlayerAnimInstance.cpp.obj"
@@ -41,6 +42,7 @@
 "D:\My Games\RPG-Combat\RPGCombat\Intermediate\Build\Win64\UE4Editor\Development\RPGCombat\RPGCombatGameMode.cpp.obj"
 "D:\My Games\RPG-Combat\RPGCombat\Intermediate\Build\Win64\UE4Editor\Development\RPGCombat\RPGCombatGameModeBase.cpp.obj"
 "D:\My Games\RPG-Combat\RPGCombat\Intermediate\Build\Win64\UE4Editor\Development\RPGCombat\SpawnVolume.cpp.obj"
+"D:\My Games\RPG-Combat\RPGCombat\Intermediate\Build\Win64\UE4Editor\Development\RPGCombat\Critter.gen.cpp.obj"
 "D:\My Games\RPG-Combat\RPGCombat\Intermediate\Build\Win64\UE4Editor\Development\RPGCombat\FloorSwitch.gen.cpp.obj"
 "D:\My Games\RPG-Combat\RPGCombat\Intermediate\Build\Win64\UE4Editor\Development\RPGCombat\MainPlayer.gen.cpp.obj"
 "D:\My Games\RPG-Combat\RPGCombat\Intermediate\Build\Win64\UE4Editor\Development\RPGCombat\MainPlayerAnimInstance.gen.cpp.obj"

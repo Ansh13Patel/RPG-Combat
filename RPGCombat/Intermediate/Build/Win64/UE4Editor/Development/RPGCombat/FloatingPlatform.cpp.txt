@@ -1,0 +1,3 @@
+D:\My Games\RPG-Combat\RPGCombat\Intermediate\Build\Win64\UE4Editor\Development\RPGCombat\Definitions.RPGCombat.h
+D:\My Games\RPG-Combat\RPGCombat\Source\RPGCombat\FloatingPlatform.h
+D:\My Games\RPG-Combat\RPGCombat\Intermediate\Build\Win64\UE4Editor\Inc\RPGCombat\FloatingPlatform.generated.h

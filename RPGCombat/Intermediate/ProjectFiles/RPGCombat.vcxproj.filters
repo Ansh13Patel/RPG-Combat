@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\RPGCombat.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{A99C321F-E4DB-43B4-B843-C7DC48DBCFC5}</UniqueIdentifier>
+      <UniqueIdentifier>{9F8FEE13-407F-4D95-85C2-E02FB3B978A3}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\RPGCombat.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{79CD7EC5-857B-443C-A5A7-D4124DBC1072}</UniqueIdentifier>
+      <UniqueIdentifier>{CD31DD71-D590-4B8E-919E-49A8F09E74EF}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,12 +27,18 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\RPGCombat">
-      <UniqueIdentifier>{5F077138-8D81-4336-BD52-50A038999264}</UniqueIdentifier>
+      <UniqueIdentifier>{421CC2ED-1E8A-43DD-8D5B-E6775A370A50}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\RPGCombat\Critter.cpp">
       <Filter>Source\RPGCombat</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\RPGCombat\Critter.h">
+      <Filter>Source\RPGCombat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\RPGCombat\FloatingPlatform.cpp">
+      <Filter>Source\RPGCombat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RPGCombat\FloatingPlatform.h">
       <Filter>Source\RPGCombat</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\RPGCombat\FloorSwitch.cpp">
