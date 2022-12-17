@@ -1,0 +1,7 @@
+D:\My Games\RPG-Combat\RPGCombat\Intermediate\Build\Win64\UE4Editor\Development\RPGCombat\Definitions.RPGCombat.h
+D:\My Games\RPG-Combat\RPGCombat\Source\RPGCombat\Item.h
+D:\My Games\RPG-Combat\RPGCombat\Intermediate\Build\Win64\UE4Editor\Inc\RPGCombat\Item.generated.h
+C:\Program Files\Unreal Engine\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/SphereComponent.h
+C:\Program Files\Unreal Engine\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
+C:\Program Files\Unreal Engine\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
+C:\Program Files\Unreal Engine\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SphereComponent.generated.h
