@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\RPGCombat.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{994728F4-3E0E-49C7-96DF-C281EB593094}</UniqueIdentifier>
+      <UniqueIdentifier>{22ACFFBA-2B7C-4BC0-80DA-E1959D0EC220}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\RPGCombat.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{9C7F338B-54A3-4A95-B713-8812CFA34298}</UniqueIdentifier>
+      <UniqueIdentifier>{846ED3DC-000D-415C-BC1E-850CC18F3A36}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,12 +27,18 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\RPGCombat">
-      <UniqueIdentifier>{557B7D84-1DB3-4DCE-A2F9-BF45AA9C85ED}</UniqueIdentifier>
+      <UniqueIdentifier>{42F5FD24-83F9-4208-BB40-F3278A70ECDD}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\RPGCombat\Critter.cpp">
       <Filter>Source\RPGCombat</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\RPGCombat\Critter.h">
+      <Filter>Source\RPGCombat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\RPGCombat\Explosive.cpp">
+      <Filter>Source\RPGCombat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RPGCombat\Explosive.h">
       <Filter>Source\RPGCombat</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\RPGCombat\FloatingPlatform.cpp">
@@ -63,6 +69,12 @@
       <Filter>Source\RPGCombat</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\RPGCombat\MainPlayerAnimInstance.h">
+      <Filter>Source\RPGCombat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\RPGCombat\Pickup.cpp">
+      <Filter>Source\RPGCombat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RPGCombat\Pickup.h">
       <Filter>Source\RPGCombat</Filter>
     </ClInclude>
     <None Include="..\..\Source\RPGCombat\RPGCombat.Build.cs">
