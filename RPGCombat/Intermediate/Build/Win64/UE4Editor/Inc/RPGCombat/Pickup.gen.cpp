@@ -72,7 +72,7 @@ void EmptyLinkFunctionForGeneratedCodePickup() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APickup, 4089173465);
+	IMPLEMENT_CLASS(APickup, 3288614564);
 	template<> RPGCOMBAT_API UClass* StaticClass<APickup>()
 	{
 		return APickup::StaticClass();

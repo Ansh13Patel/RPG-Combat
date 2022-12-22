@@ -2,18 +2,17 @@
   Parsing headers for RPGCombatEditor
     Running UnrealHeaderTool "D:\My Games\RPG-Combat\RPGCombat\RPGCombat.uproject" "D:\My Games\RPG-Combat\RPGCombat\Intermediate\Build\Win64\RPGCombatEditor\Development\RPGCombatEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\anshp\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
   LogInit: Display: Loading text-based GConfig....
-  Reflection code generated for RPGCombatEditor in 13.8870179 seconds
+  Reflection code generated for RPGCombatEditor in 40.2106028 seconds
   Building RPGCombatEditor...
   Using Visual Studio 2022 14.34.31935 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 7 actions with 8 processes...
-    [1/7] Explosive.cpp
-    [2/7] Pickup.cpp
-    [3/7] Item.cpp
-    [4/7] Pickup.gen.cpp
-    [5/7] UE4Editor-RPGCombat-0006.lib
-       Creating library D:\My Games\RPG-Combat\RPGCombat\Intermediate\Build\Win64\UE4Editor\Development\RPGCombat\UE4Editor-RPGCombat-0006.lib and object D:\My Games\RPG-Combat\RPGCombat\Intermediate\Build\Win64\UE4Editor\Development\RPGCombat\UE4Editor-RPGCombat-0006.exp
-    [6/7] UE4Editor-RPGCombat-0006.dll
-       Creating library D:\My Games\RPG-Combat\RPGCombat\Intermediate\Build\Win64\UE4Editor\Development\RPGCombat\UE4Editor-RPGCombat-0006.suppressed.lib and object D:\My Games\RPG-Combat\RPGCombat\Intermediate\Build\Win64\UE4Editor\Development\RPGCombat\UE4Editor-RPGCombat-0006.suppressed.exp
-    [7/7] RPGCombatEditor.target
-  Total time in Parallel executor: 159.64 seconds
-  Total execution time: 176.22 seconds
+  Building 6 actions with 8 processes...
+    [1/6] RPGCombat.init.gen.cpp
+    [2/6] MainPlayerController.gen.cpp
+    [3/6] MainPlayerController.cpp
+    [4/6] UE4Editor-RPGCombat-0016.lib
+       Creating library D:\My Games\RPG-Combat\RPGCombat\Intermediate\Build\Win64\UE4Editor\Development\RPGCombat\UE4Editor-RPGCombat-0016.lib and object D:\My Games\RPG-Combat\RPGCombat\Intermediate\Build\Win64\UE4Editor\Development\RPGCombat\UE4Editor-RPGCombat-0016.exp
+    [5/6] UE4Editor-RPGCombat-0016.dll
+       Creating library D:\My Games\RPG-Combat\RPGCombat\Intermediate\Build\Win64\UE4Editor\Development\RPGCombat\UE4Editor-RPGCombat-0016.suppressed.lib and object D:\My Games\RPG-Combat\RPGCombat\Intermediate\Build\Win64\UE4Editor\Development\RPGCombat\UE4Editor-RPGCombat-0016.suppressed.exp
+    [6/6] RPGCombatEditor.target
+  Total time in Parallel executor: 339.52 seconds
+  Total execution time: 382.52 seconds

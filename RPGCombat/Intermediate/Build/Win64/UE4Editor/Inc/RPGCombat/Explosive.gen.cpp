@@ -72,7 +72,7 @@ void EmptyLinkFunctionForGeneratedCodeExplosive() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AExplosive, 1449603869);
+	IMPLEMENT_CLASS(AExplosive, 3055810311);
 	template<> RPGCOMBAT_API UClass* StaticClass<AExplosive>()
 	{
 		return AExplosive::StaticClass();
